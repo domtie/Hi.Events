@@ -1,4 +1,4 @@
-CLOUDFLARE_FILE_PATH=/etc/nginx/cloudflare.txt
+CLOUDFLARE_FILE_PATH=/etc/nginx/cloudflare
 
 echo "#Cloudflare" > $CLOUDFLARE_FILE_PATH;
 echo "" >> $CLOUDFLARE_FILE_PATH;
