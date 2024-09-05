@@ -1,4 +1,4 @@
-CLOUDFLARE_FILE_PATH=/etc/nginx/cloudflare
+CLOUDFLARE_FILE_PATH=cloudflare.txt
 
 echo "#Cloudflare" > $CLOUDFLARE_FILE_PATH;
 echo "" >> $CLOUDFLARE_FILE_PATH;
@@ -18,4 +18,4 @@ echo "" >> $CLOUDFLARE_FILE_PATH;
 echo "real_ip_header CF-Connecting-IP;" >> $CLOUDFLARE_FILE_PATH;
 
 #test configuration and reload nginx
-nginx -t && systemctl reload nginx
+#nginx -t && systemctl reload nginx
