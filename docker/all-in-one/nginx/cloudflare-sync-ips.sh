@@ -1,4 +1,4 @@
-CLOUDFLARE_FILE_PATH=cloudflare.txt
+CLOUDFLARE_FILE_PATH=cloudflare
 
 echo "#Cloudflare" > $CLOUDFLARE_FILE_PATH;
 echo "" >> $CLOUDFLARE_FILE_PATH;
